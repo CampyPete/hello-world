@@ -17,8 +17,5 @@ txt_again = open(file_again)
 print txt_again.read()
 print
 
-filename.close()
+txt.close()
 print "The file %s is now closed" %(filename)
-
-
-
